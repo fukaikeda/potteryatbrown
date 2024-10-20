@@ -1,0 +1,72 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+/* Navigation Menu Styling */
+nav {
+    background-color: #4c3228; /* Dark background for the menu */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullets from the list */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Make the list items display horizontally */
+    justify-content: center; /* Center the items horizontally */
+}
+
+nav ul li {
+    margin: 0 20px; /* Add space between menu items */
+}
+
+nav ul li a {
+    color: white; /* White text for contrast */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px; /* Add padding around the links */
+    transition: background-color 0.3s; /* Smooth background change on hover */
+}
+
+nav ul li a:hover {
+    background-color: #5b3e31; /* Change background on hover */
+    border-radius: 5px;
+}
+
+/* Header Styling */
+header {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #4c3228;
+}
+
+/* Section Content Styling */
+section {
+    padding: 20px;
+    font-size: 18px;
+    color: #4c3228;
+}
+
+.member-list {
+    display: flex; /* Use Flexbox for layout */
+    justify-content: space-around; /* Evenly space items */
+    flex-wrap: wrap; /* Wrap to next line if necessary */
+    margin: 20px 0; /* Add some margin */
+}
+
+.member-list li {
+    text-align: center; /* Center text and images */
+    margin: 20px; /* Space around each member */
+}
+
+.member-list img {
+    border-radius: 50%; /* Optional: makes images circular */
+}
